@@ -3,15 +3,256 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Urban Clinic</title>
+
+<title>Urban Clinic | Premium Healthcare Services</title>
+
+<meta name="description"
+content="Urban Clinic provides premium healthcare services, health checkups, preventive care, and patient-centered medical support in Durgapur.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:#ffffff;
+line-height:1.6;
+}
+
+header{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(rgba(15,23,42,.75),
+rgba(15,23,42,.85)),
+url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:4rem;
+font-weight:700;
+}
+
+.hero p{
+font-size:1.2rem;
+margin:20px 0;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+margin:10px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-primary{
+background:#38bdf8;
+color:white;
+}
+
+.btn-secondary{
+border:2px solid #38bdf8;
+color:#38bdf8;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+font-size:2rem;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+.services{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:16px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.contact-box{
+background:#1e293b;
+padding:30px;
+border-radius:16px;
+}
+
+footer{
+background:#020617;
+padding:25px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
 </head>
+
 <body>
+
+<header>
+<div class="hero">
+
 <h1>Urban Clinic</h1>
-<p>Quality Healthcare Services For You & Your Family</p>
-<p>Phone: 7980334160</p>
-<p>Alternate Phone: 6001162086</p>
-<p>Email: ravikumar245g@gmail.com</p>
-<p>Address: Bus Stand, Abanindranath Bithi, PETS Colony, City Center, Durgapur, West Bengal 713216</p>
-<p>Hours: 6:00 AM – 11:00 PM</p>
+
+<p>
+Premium Healthcare Services
+for You & Your Family
+</p>
+
+<a href="tel:7980334160"
+class="btn btn-primary">
+Call Now
+</a>
+
+<a href="#contact"
+class="btn btn-secondary">
+Book Appointment
+</a>
+
+</div>
+</header>
+
+<section>
+
+<h2 class="section-title">
+About Urban Clinic
+</h2>
+
+<p>
+Urban Clinic is dedicated to delivering
+quality healthcare services through
+modern facilities and compassionate
+patient care. We focus on providing
+accessible and affordable healthcare
+solutions for individuals and families.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">
+Our Services
+</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>General Consultation</h3>
+<p>Comprehensive healthcare consultations.</p>
+</div>
+
+<div class="card">
+<h3>Health Checkups</h3>
+<p>Routine health assessments.</p>
+</div>
+
+<div class="card">
+<h3>Diabetes Management</h3>
+<p>Monitoring and healthcare support.</p>
+</div>
+
+<div class="card">
+<h3>Blood Pressure Monitoring</h3>
+<p>Regular monitoring and wellness guidance.</p>
+</div>
+
+<div class="card">
+<h3>Nutrition & Wellness</h3>
+<p>Lifestyle and dietary support.</p>
+</div>
+
+<div class="card">
+<h3>Preventive Healthcare</h3>
+<p>Helping patients maintain long-term wellness.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+Contact Information
+</h2>
+
+<div class="contact-box">
+
+<p><strong>Clinic:</strong> Urban Clinic</p>
+
+<p><strong>Phone:</strong>
+7980334160</p>
+
+<p><strong>Alternate:</strong>
+6001162086</p>
+
+<p><strong>Email:</strong>
+ravikumar245g@gmail.com</p>
+
+<p><strong>Address:</strong><br>
+Bus Stand, Abanindranath Bithi,<br>
+PETS Colony, City Center,<br>
+Durgapur, West Bengal 713216
+</p>
+
+<p><strong>Hours:</strong>
+6:00 AM – 11:00 PM
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Urban Clinic.
+All Rights Reserved.
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/916001162086">
+WhatsApp
+</a>
+
 </body>
 </html>
